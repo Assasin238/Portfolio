@@ -6,7 +6,7 @@
 
 body
 {
-
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header 
@@ -17,6 +17,11 @@ header
 footer 
 {
     
+}
+
+a 
+{
+    text-decoration: none;
 }
 
 nav 
