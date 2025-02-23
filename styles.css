@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+
+}
+
+header 
+{
+    background-color: aqua;
+}
+
+footer 
+{
+    
+}
+
+nav 
+{
+
+}
+
+.icons
+{
+    width: 2em;
+    height: 2em;
+}
