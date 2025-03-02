@@ -1,3 +1,6 @@
+/*#4EA0BD*/
+
+
 *
 {
     margin: 0;
@@ -9,7 +12,6 @@ body
 {
     font-family: 'Courier New', Courier, monospace;
     background-color:#fae6c4;
-    /*trochu náročné na procák :D, musím zvážit zda to tak nechám, fix by byl odebráním barev*/
     background-image: 
         radial-gradient(at 81% 65%, #a8c7ff 0px, transparent 50%),
         radial-gradient(at 95% 99%, #ffe4b1 0px, transparent 50%),
@@ -37,12 +39,12 @@ body
 main 
 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% auto auto;
     gap: 20px;    
     padding: 20px;
 }
 
-.section 
+.container-about
 {
     background-color: #19323b;
     border-radius: 16px;
@@ -51,10 +53,62 @@ main
     box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
 }
 
-.Section-About 
+.container-skills 
 {
-    border: 2px solid black;
+    text-align: center;
+    background-color: #19323b;
+    border-radius: 16px;
     padding: 20px;
+    color: #4EA0BD;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
+}
+
+.container-status 
+{
+    background-color: #19323b;
+    border-radius: 16px;
+    padding: 20px;
+    color: #4EA0BD;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
+}
+
+.container-projects 
+{
+    background-color: #19323b;
+    border-radius: 16px;
+    padding: 20px;
+    color: #4EA0BD;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
+}
+
+.container-contact 
+{
+    text-align: center;
+    background-color: #19323b;
+    border-radius: 16px;
+    padding: 20px;
+    color: #4EA0BD;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
+}
+
+.container-certificates 
+{
+    background-color: #19323b;
+    border-radius: 16px;
+    padding: 20px;
+    color: #4EA0BD;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
+}
+
+.container-footer 
+{
+    text-align: center;
+    background-color: #19323b;
+    border-radius: 16px;
+    padding: 20px;
+    color: #4EA0BD;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
+    grid-column: 2 / 3;
 }
 
 footer 
@@ -62,9 +116,14 @@ footer
     
 }
 
+p 
+{
+    color: white;
+}
+
 a 
 {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -73,7 +132,7 @@ a
     border: 1px solid black;
     border-radius: 16px;
     padding: 15px;
-    background-color: #4EA0BD;
+    background-color: #2e5c6d;
     text-align: center;
     cursor: pointer;
     transition: scale 0.2 ease;
