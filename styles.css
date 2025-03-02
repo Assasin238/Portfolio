@@ -6,11 +6,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body
 {
-    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
     background-color:#fae6c4;
     background-image: 
         radial-gradient(at 81% 65%, #a8c7ff 0px, transparent 50%),
@@ -19,7 +20,6 @@ body
         radial-gradient(at 75% 26%, #abe7ff 0px, transparent 50%);
     background-size: 400% 400%;
     animation: gradient 9s ease infinite;
-    height: 100vh;
 }
 
 @keyframes gradient 
