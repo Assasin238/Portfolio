@@ -13,3 +13,17 @@ const time = () =>{
     },1000)
 
 }
+
+const status = () =>{
+    const now = new Date();
+    const hours = now.getHours();
+    const statusElement = document.getElementById("status-time");
+
+    if (hours >= 13 && hours < 20) {
+        statusElement.textContent = "Online";
+        statusElement.style.color = "green";
+    } else {
+        statusElement.textContent = "Offline";
+        statusElement.style.color = "red";
+    }
+}
