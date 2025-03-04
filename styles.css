@@ -1,6 +1,5 @@
 /*#4EA0BD*/
 
-
 *
 {
     margin: 0;
@@ -39,59 +38,12 @@ body
 main 
 {
     display: grid;
-    grid-template-columns: 33% auto auto;
+    grid-template-columns: auto 33% 32%;
     gap: 20px;    
     padding: 20px;
 }
 
-.container-about
-{
-    background-color: #19323b;
-    border-radius: 16px;
-    padding: 20px;
-    color: #4EA0BD;
-    box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
-}
-
-.container-skills 
-{
-    text-align: center;
-    background-color: #19323b;
-    border-radius: 16px;
-    padding: 20px;
-    color: #4EA0BD;
-    box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
-}
-
-.container-status 
-{
-    background-color: #19323b;
-    border-radius: 16px;
-    padding: 20px;
-    color: #4EA0BD;
-    box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
-}
-
-.container-projects 
-{
-    background-color: #19323b;
-    border-radius: 16px;
-    padding: 20px;
-    color: #4EA0BD;
-    box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
-}
-
-.container-contact 
-{
-    text-align: center;
-    background-color: #19323b;
-    border-radius: 16px;
-    padding: 20px;
-    color: #4EA0BD;
-    box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
-}
-
-.container-certificates 
+.container
 {
     background-color: #19323b;
     border-radius: 16px;
@@ -129,10 +81,10 @@ main
     position: relative;
 }
 
-footer 
+/* footer 
 {
     
-}
+} */
 
 p 
 {
