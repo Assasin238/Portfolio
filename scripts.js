@@ -1,7 +1,7 @@
 const time = () =>{
-    let hours = document.getElementById("hours")
-    let minutes = document.getElementById("minutes")
-    let seconds = document.getElementById("seconds")
+    let hours = document.getElementById("hours");
+    let minutes = document.getElementById("minutes");
+    let seconds = document.getElementById("seconds");
 
     setInterval(()=> {
 
@@ -27,3 +27,39 @@ const status = () =>{
         statusElement.style.color = "red";
     }
 }
+
+const image = () =>{
+    // select image element
+    const img = document.getElementById("images");
+    // listen for the click event
+    // store images
+    const images = 
+    [
+        'images\\picture.jpg',
+        'images\\dog-picture.jpg',
+        'images\\game-picture.png'
+    ];
+
+    let index = 0;
+    img.addEventListener('click', function()
+    {
+        index = (index + 1) % images.length;
+        img.src = images[index];
+        
+    })
+}
+
+const background = () => {
+    
+}
+
+// toggle = !toggle;
+//         if(toggle)
+//         {
+//             img.src = 'images\\picture.jpg'; 
+//             img.src = 'images\\dog-picture.jpg';
+//         }
+        
+//         else{
+//             img.src = 'images\\game-picture.png';  
+//         }
