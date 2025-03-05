@@ -83,6 +83,13 @@ main
     color: #4EA0BD;
     box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
     display: flex;
+    
+}
+
+.about-text 
+{
+    display: flex;
+    flex-direction: column;
 }
 
 .container-footer 
