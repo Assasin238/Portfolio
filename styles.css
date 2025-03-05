@@ -202,15 +202,16 @@ a
 .project-container 
 {
     display: flex;
+    
 
 }
 .picture-projects
 {
     border-radius: 25px;
     height: 150px;
-    width: 250px;
+    width: 200px;
     display: flex;
-    margin: 10px;
+    margin: 10px;   
 }
 
 
