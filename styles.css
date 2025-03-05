@@ -132,26 +132,22 @@ main
     display: flex;
 }
 
-img {
+.picture-about {
     width: 100px;
     height: 100px;
     margin: 10px;
     border-radius: 25px;
 }
 
-img:hover
+.picture-container:hover
 {
     scale: 1.05;
 }
 
-img:active 
+.picture-container:active 
 {
     scale: 0.95;
 }
-/* footer 
-{
-    
-} */
 
 p 
 {
@@ -202,6 +198,21 @@ a
 {
     scale: 1.15;
 }
+
+.project-container 
+{
+    display: flex;
+
+}
+.picture-projects
+{
+    border-radius: 25px;
+    height: 150px;
+    width: 250px;
+    display: flex;
+    margin: 10px;
+}
+
 
 /*barevná paleta
 
