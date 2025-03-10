@@ -89,6 +89,14 @@ main
     
 }
 
+
+.skill-capsule 
+{
+    background-color: #0b2833;
+    border-radius: 15px;
+    padding: 5px;
+}
+
 .about-text 
 {
     display: flex;
@@ -143,14 +151,19 @@ main
     cursor: pointer;
 }
 
+.picture-container 
+{
+    transition: transform 0.2s ease;
+}
+
 .picture-container:hover
 {
-    scale: 1.05;
+    transform: scale(1.05);
 }
 
 .picture-container:active 
 {
-    scale: 0.95;
+    transform: scale(0.95);
 }
 
 p 
@@ -164,43 +177,53 @@ a
     text-decoration: none;
 }
 
-.button
+.contact-me
 {
-    border: 1px solid black;
     border-radius: 16px;
     padding: 15px;
-    background-color: #2e5c6d;
+    background-color: #0b2833;
     cursor: pointer;
-    transition: scale 0.2 ease;
     width: 50%;
+    transition: transform 0.2s ease;
 }
 
-.button:hover
+/* .contact-me .icon 
 {
-    scale: 1.05;
-    color: black;
+
+} */
+
+.contact-me:hover
+{
+    transform: scale(1.05);
 }
 
-.button:active 
+.contact-me:active 
 {
-    scale: 0.95;
+    transform: scale(0.95);
 }
 
 .icon 
 {
     width: 1.5em;
     height: 1.5em;
+    
 }
 
 .icons-footer
 {
     width: 1.5em;
     height: 1.5em;
+    transition: transform 0.2s ease;
 }
 
 .icons-footer:hover
 {
-    scale: 1.15;
+    transform: scale(1.15);
+}
+
+.icons-footer:active 
+{
+    transform: scale(0.95)
 }
 
 .project-container 
@@ -216,15 +239,21 @@ a
     height: 150px;
     width: 200px;
     display: flex;
-    margin: 10px;   
+    margin: 10px;
+    transition: transform 0.2s ease;   
 }
 
 .picture-projects:hover
 {
-    scale: 1.04;
+    transform: scale(1.04);
 }
 
-.sidebar 
+.picture-projects:active 
+{
+    transform: scale(0.94);
+}
+
+.scrollbar 
 {
     margin: 20px;
     height: 50%;
@@ -233,30 +262,35 @@ a
     border: 1px solid #19323b;
     overflow-x: hidden;
 }
-.sidebar li
+.scrollbar li
 {
     padding: 5px;
     font-size: 18px;
+    transition: transform 0.2s ease;
 }
-.sidebar li:hover
+.scrollbar li:hover
 {
-    scale: 1.04;
+    transform: scale(1.04);
     
 }
 
+.scrollbar li:active
+{
+    transform: scale(0.94);
+}
 
 
-.sidebar::-webkit-scrollbar 
+.scrollbar::-webkit-scrollbar 
 {
     width: 6px;
 }
 
-.sidebar::-webkit-scrollbar-track
+.scrollbar::-webkit-scrollbar-track
 {
     background-color: transparent;
 }
 
-.sidebar::-webkit-scrollbar-thumb 
+.scrollbar::-webkit-scrollbar-thumb 
 {
     background: #4EA0BD;
     border-radius: 10px;
