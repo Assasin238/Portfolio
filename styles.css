@@ -89,7 +89,10 @@ main
     
 }
 
-
+.container-skill
+{
+    display: flex;
+}
 .skill-capsule 
 {
     background-color: #0b2833;
@@ -230,7 +233,8 @@ a
 {
     display: flex;
     justify-content: center;
-    
+    gap: 10px;
+    margin: 10px;
 
 }
 .picture-projects
@@ -239,7 +243,6 @@ a
     height: 150px;
     width: 200px;
     display: flex;
-    margin: 10px;
     transition: transform 0.2s ease;   
 }
 
