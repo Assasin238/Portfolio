@@ -1,5 +1,6 @@
 /*#4EA0BD*/
-
+/* #384c55 */
+/* #07141a */
 *
 {
     margin: 0;
@@ -8,23 +9,33 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-body
+:root 
 {
-    height: 100vh;
-    /* background-color:#fae6c4; */
-    /* background-image: 
+     background-color:#fae6c4; 
+     background-image: 
         radial-gradient(at 81% 65%, #a8c7ff 0px, transparent 50%),
         radial-gradient(at 95% 99%, #ffe4b1 0px, transparent 50%),
         radial-gradient(at 48% 26%, #dbb4ff 0px, transparent 50%),
-        radial-gradient(at 75% 26%, #abe7ff 0px, transparent 50%); */
-    background-color:#07141a;
+        radial-gradient(at 75% 26%, #abe7ff 0px, transparent 50%);
+        background-size: 400% 400%;
+        animation: gradient 9s ease infinite;
+}
+
+.darkmode 
+{
+    background-color:#384c55;
     background-image: 
         radial-gradient(at 81% 65%, #1b2a44 0px, transparent 50%),
         radial-gradient(at 95% 99%, #3c5277 0px, transparent 50%),
         radial-gradient(at 48% 26%, #0e192b 0px, transparent 50%),
         radial-gradient(at 75% 26%, #e09650 0px, transparent 50%);
-    background-size: 400% 400%;
-    animation: gradient 9s ease infinite;
+        background-size: 400% 400%;
+        animation: gradient 9s ease infinite;
+}
+
+body
+{
+    height: 100vh;
 }
 
 @keyframes gradient 
@@ -300,25 +311,40 @@ a
 }
 
 
+.background
+{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #19323b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: transform 0.2s ease;
+}
+.background:hover
+{
+    transform: scale(1.14);
+}
 
+.background:active
+{
+    transform: scale(0.94);
+}
 
-/*barevná paleta
+.background svg:last-child
+{
+    display: none;
+}
 
-pro světlý režim
-     background-color:#fae6c4; 
-     background-image: 
-        radial-gradient(at 81% 65%, #a8c7ff 0px, transparent 50%),
-        radial-gradient(at 95% 99%, #ffe4b1 0px, transparent 50%),
-        radial-gradient(at 48% 26%, #dbb4ff 0px, transparent 50%),
-        radial-gradient(at 75% 26%, #abe7ff 0px, transparent 50%);
-        
-        
-dark režim
+.darkmode .background svg:first-child
+{
+    display: none;
+}
 
-    background-color:#07141a;
-    background-image: 
-        radial-gradient(at 81% 65%, #1b2a44 0px, transparent 50%),
-        radial-gradient(at 95% 99%, #3c5277 0px, transparent 50%),
-        radial-gradient(at 48% 26%, #0e192b 0px, transparent 50%),
-        radial-gradient(at 75% 26%, #e09650 0px, transparent 50%);
-*/
+.darkmode .background svg:last-child
+{
+    display: block;
+}
