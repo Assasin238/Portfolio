@@ -103,18 +103,64 @@ main
 .container-skill
 {
     display: flex;
+    gap: 10px;
 }
+
+/*uvidím*/
 .skill-capsule 
 {
     background-color: #0b2833;
-    border-radius: 15px;
-    padding: 5px;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 18px;
+    padding-left: 50px;
+    transition: transform 0.2s ease;
+    margin-top: 10px;
+}
+
+.skill-capsule:hover
+{
+    transform: scale(1.06);
+}
+
+.icon-wrapper 
+{
+    background-color: #2e5c6d;
+    border-radius: 50%;
+    width: 40px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -1px;
+}
+
+.about-introduction 
+{
+    display: flex;
+    flex-direction: column;
 }
 
 .about-text 
 {
     display: flex;
-    flex-direction: column;
+    gap: 5px;
+}
+
+.about-capsule 
+{
+    background-color: #0b2833;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 .container-footer 
@@ -191,6 +237,8 @@ a
     text-decoration: none;
 }
 
+
+/*#2e5c6d*/
 .contact-me
 {
     border-radius: 16px;
@@ -200,11 +248,6 @@ a
     width: 50%;
     transition: transform 0.2s ease;
 }
-
-/* .contact-me .icon 
-{
-
-} */
 
 .contact-me:hover
 {
