@@ -301,8 +301,9 @@ a
 .picture-projects
 {
     border-radius: 25px;
-    height: 150px;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
     display: flex;
     transition: transform 0.2s ease;   
 }
@@ -397,4 +398,77 @@ a
 .darkmode .background svg:last-child
 {
     display: block;
+}
+
+@media (max-width: 1024px)  
+{
+    .column-wrapper
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .column-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    .container, .container-about, .container-footer {
+        max-width: 95%;
+        padding: 10px;
+    }
+
+    .skill-capsule, .about-capsule {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .contact-me {
+        width: 80%;
+    }
+
+    .picture-about {
+        width: 70px;
+        height: 70px;
+    }
+
+    .picture-projects {
+        max-width: 150px;
+    }
+
+    .skill-capsule {
+        font-size: 14px;
+        padding: 8px 12px;
+        padding-left: 40px;
+    }
+
+    .icon-wrapper {
+        width: 30px;
+        height: 35px;
+    }
+
+    .time span {
+        font-size: 50px;
+    }
+
+    #status-time {
+        font-size: 18px;
+    }
+
+    .container-skill, .about-text {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        justify-content: center;
+    }
 }
