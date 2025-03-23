@@ -21,7 +21,7 @@ const status = () =>{
 
     if (hours >= 13 && hours < 20) {
         statusElement.textContent = "Online";
-        statusElement.style.color = "green";
+        statusElement.style.color = "#0d9e7a";
     } else {
         statusElement.textContent = "Offline";
         statusElement.style.color = "red";

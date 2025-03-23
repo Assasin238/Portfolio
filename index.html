@@ -18,11 +18,21 @@
     <div class="column-wrapper">
         <div class="column">
         <section id="about" class="container-about">
-            <div class="picture-container">
-                <img class="picture-about" src="/images/picture.jpg" alt="Author" id="images">
+            <div class="about-up">
+                <div class="con-up">
+                    <div class="picture-container">
+                        <img class="picture-about" src="/images/picture.jpg" alt="Author" id="images">
+                    </div>
+                    <div class="active">
+                        <span id="status-time"></span>
+                    </div>
+                </div>
+                <div class="about-up-text">
+                    <h1>I'm Peťko</h1>
+                    <p>a Front-End Design Developer</p>
+                </div>
             </div>
             <div class="about-introduction">
-                <h1>I'm Peťko</h1>
                 <div class="about-text">
                     <div class="about-capsule">
                         <p>IT Student</p>
@@ -36,7 +46,8 @@
                     <div class="about-capsule">
                         <p>Peepohappy</p>
                     </div>
-                </div>    
+                </div>
+                    
             </div>
         </section>
         <section id="projects_contests" class="container">
@@ -70,6 +81,14 @@
                             </svg>
                         </div>
                         <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noopener noreferrer">CSS</a>
+                    </div>
+                    <div class="skill-capsule">
+                        <div class="icon-wrapper">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                <path fill="#4ea0bd" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/>
+                            </svg>
+                        </div>
+                        <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer">Javascript</a>
                     </div>
                     <div class="skill-capsule">
                         <div class="icon-wrapper">
@@ -144,20 +163,8 @@
             </div>
         </div>
         <div class="column">
-            <section id="status" class="container">
-                <h1>Status</h1>
-                <div class="time">
-                    <div class="time-display">
-                        <span id="hours">00</span>
-                        <span>:</span>
-                        <span id="minutes">00</span>
-                        <span>:</span>
-                        <span id="seconds">00</span>
-                    </div>
-                    <div class="active">
-                        <span id="status-time"></span>
-                    </div>
-                </div>
+            <section id="services" class="container">
+                <h1>Services</h1>
             </section>
             <section id="Certificates" class="container">
                 <h1>Certificates</h1>
@@ -186,7 +193,6 @@
     </div>
 </main>
     <script>
-        time();
         status();
         image();
         background();
