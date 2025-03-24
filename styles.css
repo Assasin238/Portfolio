@@ -385,6 +385,7 @@ a
     align-items: center;
     border: none;
     transition: transform 0.2s ease;
+    cursor: pointer;
 }
 .background:hover
 {
