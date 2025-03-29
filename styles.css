@@ -210,8 +210,7 @@ main
 .picture-about {
     width: 110px;
     height: 110px;
-    margin: 15px;
-    margin-left: 5px;
+    
     border-radius: 25px;
     cursor: pointer;
 }
@@ -219,6 +218,8 @@ main
 .picture-container 
 {
     transition: transform 0.2s ease;
+    margin: 15px;
+    margin-left: 5px;
 }
 
 .active
