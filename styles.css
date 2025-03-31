@@ -199,6 +199,7 @@ main
     font-size: 20px;
     margin-top: 10px;
     justify-content: center;
+    align-items: center;
 }
 
 .container-footer 
@@ -454,7 +455,7 @@ a
     flex-direction: column;
 }
 
-@media (max-width: 1024px)  
+@media (max-width: 1514px)  
 {
     .column-wrapper
     {
