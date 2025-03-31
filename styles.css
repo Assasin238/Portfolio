@@ -198,6 +198,7 @@ main
     display: flex;
     font-size: 20px;
     margin-top: 10px;
+    justify-content: center;
 }
 
 .container-footer 
