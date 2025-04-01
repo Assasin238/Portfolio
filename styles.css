@@ -138,6 +138,7 @@ main
     transition: transform 0.2s ease;
     margin-top: 10px;
     justify-content: center; 
+    flex-wrap: nowrap;
 }
 
 .skill-capsule:hover 
@@ -525,9 +526,16 @@ a
         font-size: 18px;
     }
 
-    .container-skill, .about-text {
+    .about-text {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .container-skill {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         gap: 5px;
         justify-content: center;
     }
