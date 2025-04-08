@@ -517,6 +517,55 @@ a
     transform: scale(0.94);
 }
 
+.panda-sprite
+{
+    width: 128px;
+    height: 128px;
+    background-image: url('images/Red Panda Sprite Sheet.png');
+    overflow: hidden;
+    background-size: 1024px 896px;
+    background-position: 0 -768px; 
+    animation: sleep 1s steps(8) infinite;
+    image-rendering: pixelated; 
+}
+
+@keyframes sleep 
+{
+    from 
+    {
+        background-position: 0 -768px;
+    }
+    to 
+    {
+        background-position: -1024px -768px;
+    }
+}
+
+/* .panda-sprite
+{
+    width: 64px;    
+    height: 64px;
+  
+    background-image: url('images/Red Panda Sprite Sheet.png');
+    overflow: hidden;
+    background-size: 512px 448px;
+    background-position: 0 -384px;
+    animation: sleep 1s steps(8) infinite;
+    image-rendering: pixelated;
+}
+
+@keyframes sleep 
+{
+    from 
+    {
+        background-position: 0 -384px;
+    }
+    to 
+    {
+        background-position: -512px -384px;
+    }
+} */
+
 @media (max-width: 1514px)  
 {
     .column-wrapper
