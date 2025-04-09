@@ -572,77 +572,103 @@ a
 
 @media (max-width: 1514px)  
 {
+    body
+    {
+        height: max-content;
+    }
+
     .column-wrapper
     {
         grid-template-columns: 1fr;
     }
 }
 
-@media (max-width: 768px) {
-    .column-wrapper {
+@media (max-width: 768px) 
+{
+    body
+    {
+        height: max-content;
+    }
+
+    .column-wrapper 
+    {
         grid-template-columns: 1fr;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) 
+{
     body {
         font-size: 14px;
+        height: max-content;
     }
 
-    h1, h2 {
+    h1, h2 
+    {
         font-size: 18px;
     }
 
-    .container, .container-about, .container-footer {
+    .container, .container-about, .container-footer 
+    {
         max-width: 95%;
         padding: 10px;
     }
 
-    .skill-capsule, .about-capsule {
+    .skill-capsule, .about-capsule 
+    {
         font-size: 12px;
         padding: 5px 10px;
     }
 
-    .contact-me {
+    .contact-me 
+    {
         width: 80%;
     }
 
-    .picture-about {
+    .picture-about 
+    {
         width: 70px;
         height: 70px;
     }
 
-    .picture-projects {
+    .picture-projects 
+    {
         max-width: 150px;
     }
 
-    .skill-capsule {
+    .skill-capsule 
+    {
         font-size: 14px;
         padding: 8px 12px;
         padding-left: 40px;
     }
 
-    .icon-wrapper {
+    .icon-wrapper 
+    {
         width: 30px;
         height: 35px;
     }
 
-    .time span {
+    .time span 
+    {
         font-size: 50px;
     }
 
-    #status-time {
+    #status-time 
+    {
         font-size: 18px;
     }
 
-    .about-text {
+    .about-text 
+    {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 5px;
         justify-content: center;
     }
 
-    .container-skill {
+    .container-skill 
+    {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
