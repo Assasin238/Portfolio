@@ -147,9 +147,7 @@ main
 
 .skill-capsule:hover 
 {
-    transform: scale(1.04); 
-    /* box-shadow: 0px 4px 3px -2px white; */
-    
+    transform: scale(1.04);     
 }
 
 .icon-wrapper 
@@ -293,7 +291,7 @@ a
 
 .contact-content 
 {
-    margin: 10% 0 10% 0;
+    margin: 6% 0 6% 0;
     font-size: 25px;
 }
 
@@ -390,7 +388,7 @@ a
     width: 50px;
     padding: 0;
     border-radius: 50%;
-    background-color: #19323b;
+    background-color: #123847;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -517,16 +515,22 @@ a
     transform: scale(0.94);
 }
 
+.panda-container
+{
+    justify-items: center;
+}
+
 .panda-sprite
 {
     width: 128px;
     height: 128px;
     background-image: url('images/Red Panda Sprite Sheet.png');
-    overflow: hidden;
+    /* overflow: hidden; */
     background-size: 1024px 896px;
-    background-position: 0 -768px; 
+    /* background-position: 0 -768px;  */
     animation: sleep 1s steps(8) infinite;
-    image-rendering: pixelated; 
+    image-rendering: pixelated;
+    
 }
 
 @keyframes sleep 
@@ -541,7 +545,7 @@ a
     }
 }
 
-/* .panda-sprite
+.panda-sprite64
 {
     width: 64px;    
     height: 64px;
@@ -550,11 +554,11 @@ a
     overflow: hidden;
     background-size: 512px 448px;
     background-position: 0 -384px;
-    animation: sleep 1s steps(8) infinite;
+    animation: sleepe 1s steps(8) infinite;
     image-rendering: pixelated;
 }
 
-@keyframes sleep 
+@keyframes sleepe
 {
     from 
     {
@@ -564,7 +568,7 @@ a
     {
         background-position: -512px -384px;
     }
-} */
+}
 
 @media (max-width: 1514px)  
 {
