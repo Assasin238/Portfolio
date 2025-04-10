@@ -1,27 +1,5 @@
-přes figmu jsem si udělal první vůbec už idea jak bych chtěl aby web vypadal takže to pak znova předělám prvně tu html vrstvu, bez navbaru
-pak pořešit css část a nakonec přidal js na animace/logické trochu věci
-možná tam bude probably i api ale na co xddd tohle asi pass
-nebude to scroll websites, only scroll Secret :D
-do stylu bublin
-takže přidat pak custom font přes poligraphr
-moje fotka, dogo fotka, logo fotka, a pak pořešit jaký bude logo website probably dogo jako chill guy
-ale idk jestli rovnou tady chci implementovat wind css to možná až na dalším projektu
-contact přes email
-gradient bc - white verzi i dark mám jen poladit přepínaní
+většinu, skoro až vše se dá říct jsem už udělal :D, poslední co zbývá:
+    - font poligraphr
+    - google analytics
 
-u telefonu asi ve stylu že prostě boxíky pod sebou 
-
-
-animaci i guess u projektů z leva do prava nebo jen proklikávání na strany 
-
-
-
-
-
-předělat:
-    - větší
-    - víc popisků
-    - hodiny mínus
-    - přesunout status na about
-    - services přidat
-    
+- contact asi nechám a v budoucnu předělat?
