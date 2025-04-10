@@ -169,6 +169,13 @@ main
 {
     display: flex;
     text-align: center;
+    justify-content: space-between;
+}
+
+.about-up-align
+{
+    display: flex;
+    text-align: center;
     align-items: center;
 }
 
@@ -381,6 +388,12 @@ a
     border-radius: 10px;
 }
 
+
+.background-container
+{
+    display: flex;
+    justify-content: flex-end;
+}
 
 .background
 {
