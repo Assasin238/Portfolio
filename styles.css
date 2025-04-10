@@ -143,11 +143,18 @@ main
     justify-content: center; 
     flex-wrap: nowrap;
     box-shadow: 1px 0.5px 8px 0.5px #4EA0BD;
+    will-change: transform;
+    
 }
 
 .skill-capsule:hover 
 {
     transform: scale(1.04);     
+}
+
+.skill-capsule:active 
+{
+    transform: scale(0.95);
 }
 
 .icon-wrapper 
@@ -284,6 +291,7 @@ a
     width: 50%;
     transition: transform 0.2s ease;
     margin-bottom: 10px;
+    will-change: transform;
 }
 
 .contact-me:hover
@@ -408,6 +416,7 @@ a
     border: none;
     transition: transform 0.2s ease;
     cursor: pointer;
+    will-change: transform;
 }
 .background:hover
 {
