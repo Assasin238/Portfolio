@@ -576,22 +576,30 @@ a
         height: max-content;
     }
 
-    .column-wrapper
-    {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 768px) 
-{
-    body
-    {
-        height: max-content;
-    }
-
     .column-wrapper 
     {
         grid-template-columns: 1fr;
+        grid-template-areas: "column1" "column3" "column2";
+    }
+      .column:nth-child(1) 
+      {
+        grid-area: column1;
+      }
+      .column:nth-child(2)
+      {
+        grid-area: column2;
+      }
+      .column:nth-child(3)
+      {
+        grid-area: column3;
+      }
+}
+
+@media (max-width: 518px)
+{
+    .skill-capsule, .about-capsule 
+    {
+        font-size: 18px;
     }
 }
 
