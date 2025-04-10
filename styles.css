@@ -9,7 +9,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* :root 
+:root 
 {
      background-color:#fae6c4; 
      background-image: 
@@ -19,26 +19,9 @@
         radial-gradient(at 75% 26%, #abe7ff 0px, transparent 50%);
         background-size: 400% 400%;
         animation: gradient 9s ease infinite;
-} */
+} 
 
 .darkmode 
-{
-    background-color:#fae6c4; 
-    background-image: 
-        radial-gradient(at 81% 65%, #a8c7ff 0px, transparent 50%),
-        radial-gradient(at 95% 99%, #ffe4b1 0px, transparent 50%),
-        radial-gradient(at 48% 26%, #dbb4ff 0px, transparent 50%),
-        radial-gradient(at 75% 26%, #abe7ff 0px, transparent 50%);
-        background-size: 400% 400%;
-        animation: gradient 9s ease infinite;
-}
-
-h1
-{
-    font-size: 30px;
-}
-/*bc uvidím*/
-body
 {
     height: 100vh;
     background-color:#384c55;
@@ -49,6 +32,12 @@ body
         radial-gradient(at 75% 26%, #e09650 0px, transparent 50%);
         background-size: 400% 400%;
         animation: gradient 9s ease infinite;
+    
+}
+
+h1
+{
+    font-size: 30px;
 }
 
 @keyframes gradient 
@@ -566,19 +555,6 @@ a
     {
         background-position: -1024px -768px;
     }
-}
-
-.panda-sprite64
-{
-    width: 64px;    
-    height: 64px;
-  
-    background-image: url('images/Red Panda Sprite Sheet.png');
-    overflow: hidden;
-    background-size: 512px 448px;
-    background-position: 0 -384px;
-    animation: sleepe 1s steps(8) infinite;
-    image-rendering: pixelated;
 }
 
 @keyframes sleepe
