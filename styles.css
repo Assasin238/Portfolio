@@ -366,6 +366,7 @@ a
     font-size: 18px;
     transition: transform 0.2s ease;
     list-style-type: none;
+    will-change: transform; /*check on it*/
 }
 .scrollbar li:hover
 {
