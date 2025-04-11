@@ -1,6 +1,3 @@
-/*#4EA0BD*/
-/* #384c55 */
-/* #07141a */
 *
 {
     margin: 0;
@@ -271,7 +268,6 @@ a
 }
 
 
-/*#2e5c6d*/
 .contact-me
 {
     border-radius: 16px;
@@ -538,9 +534,7 @@ a
     width: 128px;
     height: 128px;
     background-image: url('images/Red Panda Sprite Sheet.png');
-    /* overflow: hidden; */
     background-size: 1024px 896px;
-    /* background-position: 0 -768px;  */
     animation: sleep 1s steps(8) infinite;
     image-rendering: pixelated;
     

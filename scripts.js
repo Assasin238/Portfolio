@@ -70,14 +70,3 @@ const background = () => {
         darkmode !== "active" ? enableDarkmode() : disableDarkmode()
     })
 }
-
-// toggle = !toggle;
-//         if(toggle)
-//         {
-//             img.src = 'images\\picture.jpg'; 
-//             img.src = 'images\\dog-picture.jpg';
-//         }
-        
-//         else{
-//             img.src = 'images\\game-picture.png';  
-//         }
