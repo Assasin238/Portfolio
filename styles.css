@@ -588,6 +588,10 @@ a
       {
         grid-area: column3;
       }
+      .darkmode
+      {
+        height: auto;
+      }
 }
 
 @media (max-width: 518px)
