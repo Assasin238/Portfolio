@@ -21,7 +21,6 @@
 
 .darkmode 
 {
-    height: 100vh;
     background-color:#384c55;
     background-image: 
         radial-gradient(at 81% 65%, #1b2a44 0px, transparent 50%),
