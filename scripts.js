@@ -24,7 +24,7 @@ const status = () =>{
         statusElement.style.color = "#0d9e7a";
     } else {
         statusElement.textContent = "Offline";
-        statusElement.style.color = "red";
+        statusElement.style.color = "#FFA8D7";
     }
 }
 

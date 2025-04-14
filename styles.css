@@ -82,7 +82,7 @@ main
     background-color: #19323b;
     border-radius: 16px;
     padding: 20px;
-    color: #4EA0BD;
+    color: #56b1d1;
     text-align: center;
     display: flex;
     align-items: center;
@@ -96,7 +96,7 @@ main
     background-color: #19323b;
     border-radius: 16px;
     padding: 20px;
-    color: #4EA0BD;
+    color: #56b1d1;
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 10px rgba(0,0,0, 0.3);
